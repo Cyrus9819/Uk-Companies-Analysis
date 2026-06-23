@@ -1,7 +1,5 @@
 # 🇬🇧 UK Companies House — Data Analysis Pipeline
 
-> End-to-end analytics project on **~850,000 UK registered companies** sourced from Companies House open data. Covers data ingestion, cleaning, SQL analysis, and visualisation.
-
 ---
 
 ## 📊 Key Findings at a Glance
