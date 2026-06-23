@@ -25,11 +25,11 @@ uk-companies-analysis/
 │   ├── .gitignore          # Excludes large CSV/DB files from version control
 │   └── README.md           # Instructions for downloading the source dataset
 │
-├── notebooks_or_scripts/
+├── Pyhton scripts/
 │   ├── 1_data_cleaning.py          # Full preprocessing & sanitisation pipeline
 │   └── 2_diagram_generator.py      # SQL query runner + chart generator (11 queries)
 │
-├── queries/
+├── SQL queries/
 │   └── company_queries.sql         # All 11 production-ready SQL queries
 │
 ├── output_diagrams/
@@ -45,8 +45,7 @@ uk-companies-analysis/
 │   ├── query_10_foreign.png        # Non-UK missing returns indicator
 │   └── query_11_top_sic.png        # Top 10 most common SIC sectors
 │
-├── .github/workflows/
-│   └── lint.yml                    # GitHub Actions — Python linting on push
+├── license
 │
 └── README.md                       # This file
 ```
