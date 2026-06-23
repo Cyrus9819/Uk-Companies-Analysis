@@ -20,7 +20,6 @@
 ```
 uk-companies-analysis/
 ├── data/
-│   ├── .gitignore          # Excludes large CSV/DB files from version control
 │   └── README.md           # Instructions for downloading the source dataset
 │
 ├── Pyhton scripts/
@@ -54,11 +53,9 @@ uk-companies-analysis/
 
 **Companies House — Basic Company Data (Open Data)**
 
-- 🔗 [Download from Companies House](https://download.companieshouse.gov.uk/en_output.html)
+- 🔗 [Download from Companies House](https://download.companieshouse.gov.uk/en_output.html) , Part 1
 - File used: `BasicCompanyData-2026-06-01-part1_7.csv` (~65 MB)
 - Licence: [Companies House Open Data Licence](http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/)
-
-> ⚠️ Raw CSV and `.db` files are excluded from this repo via `.gitignore` due to file size. See [`data/README.md`](data/README.md) for download instructions.
 
 ---
 
